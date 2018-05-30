@@ -68,8 +68,8 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each {|x| x.capitalize!}
     # p holiday
     holiday = holiday.join(" ")
-    # puts "#{key.capitalize}:"
-    puts "#{key.capitalize}:  #{holiday}: #{holiday_supply.join(", ")}"
+    puts "#{key.capitalize}:"
+    puts "  #{holiday}: #{holiday_supply.join(", ")}"
 
     end
   end
